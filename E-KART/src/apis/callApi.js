@@ -8,7 +8,7 @@ export const callAPI = async (method, endpoint, data = null) => {
     method,
     data,
   };
-
+ 
   return new Promise((resolve, reject) => {
     axios(config)
       .then((response) => {
